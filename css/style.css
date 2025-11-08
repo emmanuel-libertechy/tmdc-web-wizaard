@@ -302,3 +302,74 @@ button.btn:hover {
     gap: 1.5rem;
   }
 }
+
+
+/* 🔹 Signup Page */
+.signup-section {
+  padding: 4rem 0;
+  background-color: #f4f4f9;
+}
+
+.signup-section h2 {
+  text-align: center;
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-section p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#signupForm {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#signupForm label {
+  font-weight: bold;
+}
+
+#signupForm input,
+#signupForm textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#signupForm textarea {
+  resize: vertical;
+}
+
+#signupForm button.btn {
+  background: #00adb5;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#signupForm button.btn:hover {
+  background: #007b83;
+}
+
+.form-message {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: green;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #signupForm {
+    width: 90%;
+  }
+}
